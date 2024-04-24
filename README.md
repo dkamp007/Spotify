@@ -12,7 +12,7 @@ Glad to be sharing my Power BI dashboard of Spotify analysis. The workflow inclu
 
       a. Top_song_streams = CALCULATE(SUM([streams]), [streams] = MAX([streams]))
 
-      This measure is used to calculate the sum of all the streams of songs & filters the data to include only rows where the number of streams matches the maximum number of streams in         the entire dataset. Essentially, it identifies the rows corresponding to the top song based on the maximum number of streams.
+###      This measure is used to calculate the sum of all the streams of songs & filters the data to include only rows where the number of streams matches the maximum number of streams in         the entire dataset. Essentially, it identifies the rows corresponding to the top song based on the maximum number of streams.
 
       b. Avg_stream_per_year = CALCULATE(AVERAGE([streams]), ALLEXCEPT([released_year]))
       
