@@ -6,7 +6,7 @@ Glad to be sharing my Power BI dashboard of Spotify analysis. The workflow inclu
 
 ### 2. Removal of duplicated rows, removing erroneous data points
 
-### 3. Creating Date column for the release date of the songs
+### 3. Creating additional columns
 
 ### 4. The following DAX measures were created for further analysis:-
 
